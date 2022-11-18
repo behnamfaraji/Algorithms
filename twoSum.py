@@ -20,3 +20,8 @@ class Solution(object):
             if target-w in dic.keys():
                 if i != dic[target-w]:
                     return([i,dic[target-w]])
+
+if __name__ == '__main__':
+    # begin
+    s = Solution()
+    print s.twoSum([3, 2, 4], 6)
